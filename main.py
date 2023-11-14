@@ -1,16 +1,21 @@
-# This is a sample Python script.
+import Linear_Regression
+import Logistic_Regression
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def LinReg():
+    Linear_Regression.Regression.distance_field_example()
+    Linear_Regression.Regression.linear_reg_example()
+    Linear_Regression.Regression.bi_linear_reg_example()
+    data = Linear_Regression.Regression.test_data_nd()
+    # print(data)
+    print("\nN-linear regression: ", Linear_Regression.Regression.n_linear_regression(data))
+    Linear_Regression.Regression.poly_reg_example()
+    Linear_Regression.Regression.quadratic_reg_example()
 
+def LogReg():
+    Logistic_Regression.lin_reg_test()
+    Logistic_Regression.non_lin_reg_test()
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if __name__ == "__main__":
+    print("Hi guys!")
+    # LinReg()
+    # LogReg()
