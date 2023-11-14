@@ -427,8 +427,6 @@ def save_students_csv(file_path: str, students: List[Student]) -> bool:
 
 if __name__ == '__main__':
     students = load_students_csv("students.csv")
-    students2 = load_students_csv("saved_students.csv")
-    #print('\n'.join(str(v)for v in students2))
     save_students_json("saved_students.json", students)
     save_students_csv("saved_students.csv", students)
 

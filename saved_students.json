@@ -1,0 +1,867 @@
+{
+	"students":[
+	{
+		"unique_id":          0,
+		"name":               "Дарья",
+		"surname":            "Архипова",
+		"group":              6408,
+		"subgroup":           1,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          1,
+		"name":               "Рустам",
+		"surname":            "Байбеков",
+		"group":              6408,
+		"subgroup":           1,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          2,
+		"name":               "Роман",
+		"surname":            "Дробин",
+		"group":              6408,
+		"subgroup":           1,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          3,
+		"name":               "Анатолий",
+		"surname":            "Жовтый",
+		"group":              6408,
+		"subgroup":           1,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          4,
+		"name":               "Артем",
+		"surname":            "Иванов",
+		"group":              6408,
+		"subgroup":           1,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          5,
+		"name":               "Дмитрий",
+		"surname":            "Калашников",
+		"group":              6408,
+		"subgroup":           1,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          6,
+		"name":               "Артем",
+		"surname":            "Камызин",
+		"group":              6408,
+		"subgroup":           1,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          7,
+		"name":               "Кирилл",
+		"surname":            "Климов",
+		"group":              6408,
+		"subgroup":           1,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          8,
+		"name":               "Никита",
+		"surname":            "Козлов",
+		"group":              6408,
+		"subgroup":           1,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          9,
+		"name":               "Александра",
+		"surname":            "Коломытцева",
+		"group":              6408,
+		"subgroup":           1,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          10,
+		"name":               "Марк",
+		"surname":            "Лазутов",
+		"group":              6408,
+		"subgroup":           1,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          11,
+		"name":               "Владислав",
+		"surname":            "Лаптев",
+		"group":              6408,
+		"subgroup":           1,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          12,
+		"name":               "Лев",
+		"surname":            "Шимченко",
+		"group":              6408,
+		"subgroup":           1,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          13,
+		"name":               "Юрий",
+		"surname":            "Юров",
+		"group":              6408,
+		"subgroup":           1,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          14,
+		"name":               "Константин",
+		"surname":            "Делов",
+		"group":              6408,
+		"subgroup":           2,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          15,
+		"name":               "Данила",
+		"surname":            "Долгих",
+		"group":              6408,
+		"subgroup":           2,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          16,
+		"name":               "Евгений",
+		"surname":            "Заров",
+		"group":              6408,
+		"subgroup":           2,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          17,
+		"name":               "Егор",
+		"surname":            "Котельников",
+		"group":              6408,
+		"subgroup":           2,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          18,
+		"name":               "Вячеслав",
+		"surname":            "Миролюбов",
+		"group":              6408,
+		"subgroup":           2,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          19,
+		"name":               "Анастасия",
+		"surname":            "Муравьева",
+		"group":              6408,
+		"subgroup":           2,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          20,
+		"name":               "Никита",
+		"surname":            "Носов",
+		"group":              6408,
+		"subgroup":           2,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          21,
+		"name":               "Алексей",
+		"surname":            "Полтораднев",
+		"group":              6408,
+		"subgroup":           2,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          22,
+		"name":               "Дмитрий",
+		"surname":            "Серафимович",
+		"group":              6408,
+		"subgroup":           2,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          23,
+		"name":               "Екатерина",
+		"surname":            "Смолькина",
+		"group":              6408,
+		"subgroup":           2,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          24,
+		"name":               "Никита",
+		"surname":            "Степанов",
+		"group":              6408,
+		"subgroup":           2,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          25,
+		"name":               "Дмитрий",
+		"surname":            "Шилов",
+		"group":              6408,
+		"subgroup":           2,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	},
+	{
+		"unique_id":          26,
+		"name":               "Даниил",
+		"surname":            "Щукарев",
+		"group":              6408,
+		"subgroup":           2,
+		"lab_works_sessions": [
+		{
+			"presence":      1,
+			"lab_work_n":    0,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:09:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    1,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:10:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    2,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:11:23"
+		},
+		{
+			"presence":      1,
+			"lab_work_n":    3,
+			"lab_work_mark": 5,
+			"lab_work_date":          "15:12:23"
+		}]
+	}]
+}
