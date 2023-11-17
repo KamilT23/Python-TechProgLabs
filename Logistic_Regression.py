@@ -332,15 +332,21 @@ class LogisticRegression:
         losses - число с плавающей точкой.
         :return:
         """
-        data = {
-            "group_features_count": self._group_features_count,
-            "max_train_iters": self._max_train_iters,
-            "learning_rate": self._learning_rate,
-            "learning_accuracy": self._learning_accuracy,
-            "thetas": self._thetas.tolist() if self._thetas is not None else [],
-            "losses": self._losses
-        }
-        return json.dumps(data)
+        # data = {
+        #     "group_features_count": self._group_features_count,
+        #     "max_train_iters": self._max_train_iters,
+        #     "learning_rate": self._learning_rate,
+        #     "learning_accuracy": self._learning_accuracy,
+        #     "thetas": self._thetas.tolist() if self._thetas is not None else [],
+        #     "losses": self._losses
+        # }
+        return f"{{\n\tgroup_features_count: {self._group_features_count}, " \
+               f"\n\tmax_train_iters: {self._max_train_iters}, " \
+               f"\n\tlearning_rate: {self._learning_rate}, " \
+               f"\n\tlearning_accuracy: {self._learning_accuracy}, " \
+               f"\n\tthetas: {self._thetas}, " \
+               f"\n\tlosses: {self._losses}\n}}"
+        #return json.dumps(data)
 
     @property
     def group_features_count(self) -> int:
@@ -420,12 +426,16 @@ class LogisticRegression:
             logits = sigmoid(np.dot(X, self._thetas))
             self._thetas -= self._learning_rate * np.dot(X.T, logits - groups)
 
-            # not important
             loss = np.multiply(np.log(logits + 1e-15), groups) + np.multiply((1 - groups), np.log(1 - logits + 1e-15))
             cost = -np.sum(loss) / groups.size
             self._losses = cost
             if (self._losses <= self._learning_accuracy):
+                #print(f"\nself._losses = {self._losses} и self._learning_accuracy = {self._learning_accuracy}\n")
                 break
+
+        if _debug_mode:
+            print(f"Полученные значения весов после обучения: {self._thetas}")
+            print(f"Значения точности и общей потери: {self._learning_accuracy, self._losses}\n")
 
 
 def lin_reg_test():
@@ -439,7 +449,7 @@ def non_lin_reg_test():
     features, group = log_reg_ellipsoid_test_data((0.08, -0.08, 1.6, 1.0, 1.0))
     lg = LogisticRegression()
     lg.train(features, group)
-    print(lg)
+    print(f"Обученные параметры логистической регрессии:\n {lg}")
 
     thetas = lg.thetas
 
@@ -455,7 +465,7 @@ def non_lin_reg_test():
     plt.xlabel("x")
     plt.ylabel("y")
     plt.grid(True)
-    print(lg.thetas / np.abs(lg.thetas[0]))
+    print(f"\nНормализованные значения параметров тетта логистической регрессии: {lg.thetas / np.abs(lg.thetas[0])}")
     draw_logistic_data(features, group)
 
 
