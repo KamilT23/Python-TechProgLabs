@@ -34,6 +34,7 @@ d/dx_j ln(f(b + (X,T))) = d/dx_j f(b + (X,T))/f(b + (X,T)) = x_j * (1 - f(b + (X
 
 _debug_mode = True
 _accuracy = 1e-6
+epsilon = 1e-15
 Vector2Int = Tuple[int, int]
 Vector2 = Tuple[float, float]
 Section = Tuple[Vector2, Vector2]
@@ -421,8 +422,11 @@ class LogisticRegression:
             self._thetas -= self._learning_rate * np.dot(X.T, logits - groups)
 
             # not important
-            loss = np.multiply(np.log(logits + 1e-15), groups) + np.multiply((1 - groups), np.log(1 - logits + 1e-15))
-            cost = -np.sum(loss) / groups.size
+            #loss_v = loss(groups, logits)
+            #print(f"loss_v = {loss_v}")
+            loss1 = np.multiply(np.log(logits + 1e-15), groups) + np.multiply((1 - groups), np.log(1 - logits + 1e-15))
+            #print(f"loss1 = {loss1}")
+            cost = -np.sum(loss1) / groups.size
             self._losses = cost
             if (self._losses <= self._learning_accuracy):
                 break
