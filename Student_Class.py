@@ -62,7 +62,7 @@ class LabWorkSession(namedtuple('LabWorkSession', 'presence, lab_work_number, la
                f'\t\t\t"presence":      {1 if self.presence else 0},\n' \
                f'\t\t\t"lab_work_n":    {self.lab_work_number},\n' \
                f'\t\t\t"lab_work_mark": {self.lab_work_mark},\n' \
-               f'\t\t\t"lab_work_date":          "{self.lab_work_date.strftime("%d:%m:%y")}"\n' \
+               f'\t\t\t"lab_work_date": "{self.lab_work_date.strftime("%d:%m:%y")}"\n' \
                f'\t\t}}'
 class Student:
     __slots__ = ('_unique_id', '_name', '_surname', '_group', '_subgroup', '_lab_work_sessions')
